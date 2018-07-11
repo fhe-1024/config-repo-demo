@@ -23,6 +23,7 @@ category|字符串|方法名称标识，此接口为syncUser|syncUser
 mobile|字符串|手机号码|17602100074
 opertype|字符串|操作类型，1绑定2取消绑定|1
 opertime|字符串|时间戳|1493468759
+flag|字符串|请求类型标识，固定为weixinunicom|weixinunicom
 sign|字符串|签名信息(见鉴权方式)|B36DB08CB7E7BF0C6A205221444F374F
 #### 接口返回信息
 字段名称|字段类型|字段描述|示例数据
@@ -40,6 +41,7 @@ msg|字符串|错误信息|鉴权失败
 category|字符串|方法名称标识，此接口为changeTel|changeTel
 ownernumber|字符串|原手机号码|17602100074
 othernumber|字符串|新手机号码|13524983970
+flag|字符串|请求类型标识，固定为weixinunicom|weixinunicom
 sign|字符串|签名信息(见鉴权方式)|B36DB08CB7E7BF0C6A205221444F374F
 #### 接口返回信息
 字段名称|字段类型|字段描述|示例数据
@@ -57,6 +59,7 @@ msg|字符串|错误信息|鉴权失败
 ---|:--:|---:|---:
 category|字符串|方法名称标识，此接口为cancelChangeTel|cancelChangeTel
 ownernumber|字符串|手机号码|17602100074
+flag|字符串|请求类型标识，固定为weixinunicom|weixinunicom
 sign|字符串|签名信息(见鉴权方式)|B36DB08CB7E7BF0C6A205221444F374F
 #### 接口返回信息
 字段名称|字段类型|字段描述|示例数据
@@ -74,6 +77,7 @@ msg|字符串|错误信息|鉴权失败
 category|字符串|方法名称标识，此接口为setMode|setMode
 ownernumber|字符串|手机号码|17602100074
 modetype|字符串|情景模式,1正常模式，2会议模式，3关机模式，4休息模式|1
+flag|字符串|请求类型标识，固定为weixinunicom|weixinunicom
 sign|字符串|签名信息(见鉴权方式)|B36DB08CB7E7BF0C6A205221444F374F
 #### 接口返回信息
 字段名称|字段类型|字段描述|示例数据
@@ -91,6 +95,7 @@ msg|字符串|错误信息|鉴权失败
 category|字符串|方法名称标识，此接口为order|order
 ownernumber|字符串|手机号码|17602100074
 type|字符串|套餐类型|4
+flag|字符串|请求类型标识，固定为weixinunicom|weixinunicom
 sign|字符串|签名信息(见鉴权方式)|B36DB08CB7E7BF0C6A205221444F374F
 #### 接口返回信息
 字段名称|字段类型|字段描述|示例数据
@@ -111,6 +116,7 @@ ownernumber|字符串|被叫号码|17602100074
 caller|字符串|主叫号码|17602100074
 pageno|字符串|查询分页，页数|1
 pagenum|字符串|每页条数|10
+flag|字符串|请求类型标识，固定为weixinunicom|weixinunicom
 sign|字符串|签名信息(见鉴权方式)|B36DB08CB7E7BF0C6A205221444F374F
 #### 接口返回信息
 字段名称|字段类型|字段描述|示例数据
